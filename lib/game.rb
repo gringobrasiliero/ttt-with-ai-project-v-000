@@ -83,7 +83,7 @@ def play_again?
   puts "Would you like to play again?"
   input = gets.strip
   if input.downcase == "y" || input.downcase == "yes"
-TicTacToeCLI.new.caller
+new_game
 elsif input.downcase == "n" || input.downcase == "no"
 exit
   end #end of if
