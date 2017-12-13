@@ -18,7 +18,7 @@ end #of best_option
 
 
 def corner(board)
-board = [0, 2, 6, 8].detect { |x| board.valid_move?(x) }
+ [0, 2, 6, 8].detect { |x| board.valid_move?(x) }
 end #of corner
 
 def random
