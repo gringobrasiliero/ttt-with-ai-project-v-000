@@ -2,4 +2,4 @@
 
 require_relative '../config/environment'
 
-TicTacToeCLI.new.new_game
+TicTacToeCLI.new.call
