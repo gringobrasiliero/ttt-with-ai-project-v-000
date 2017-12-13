@@ -28,7 +28,7 @@ def full?
 
 
   def taken?(input)
-       !(position(input) == @token || position(input) == "")
+       !(position(input) == ("X" || "O") || position(input) == "")
      end
 
 def turn_count
