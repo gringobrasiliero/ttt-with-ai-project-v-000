@@ -12,7 +12,7 @@ module Players
 
 def best_option(board)
 # Center -win- block -  Corners - Random
- win(board) ||block(board)  || corner(board) || random
+ win(board) ||block(board)  ||  random
 end #of best_option
 
 
