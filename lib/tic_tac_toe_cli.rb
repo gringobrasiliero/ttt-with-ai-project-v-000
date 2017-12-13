@@ -4,7 +4,6 @@ class TicTacToeCLI
 
   end
 
-  def call
         def new_game
     game = Game.new
 
@@ -37,6 +36,6 @@ new_game
 
 
 
-  end #call
+#  end #call
 
 end #class Tic-Tac-Toe CLI
