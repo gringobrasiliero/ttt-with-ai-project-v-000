@@ -12,13 +12,13 @@ module Players
 
 def best_option(board)
 # Center -win- block -  Corners - Random
- win(board) ||block(board)  ||  random
+ win(board) ||block(board)  || corner(board) ||  random
 end #of best_option
 
 
 
 def corner(board)
-board = [0, 2, 6, 8].detect { |x| board.valid_move?(x) }
+board = [1, 3, 7, 9].detect { |x| board.valid_move?(x) }
 end #of corner
 
 def random
