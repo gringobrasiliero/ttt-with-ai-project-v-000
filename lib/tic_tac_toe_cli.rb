@@ -1,10 +1,8 @@
-class TicTacToeCLI
-  def initialize
+=begin
     puts "Welcome to Tic-Tac-Toe!"
 
-  end
 
-  def call
+
         def new_game
     game = Game.new
 
@@ -35,8 +33,4 @@ class TicTacToeCLI
 
 new_game
 
-
-
-  end #call
-
-end #class Tic-Tac-Toe CLI
+=end
