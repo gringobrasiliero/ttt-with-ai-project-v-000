@@ -56,7 +56,7 @@ end #of random
         ) ||
          (
            (board.cells[array[0]] == token && board.cells[array[2]] == token) &&
-           !board.taken?(array[1]+1)
+           !board.taken?(array[1])
          )
 end #end of iteration
 end #end of class Computer < Player
