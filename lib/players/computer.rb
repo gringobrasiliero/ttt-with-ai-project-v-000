@@ -41,7 +41,7 @@ end #of random
           end
 
     def opponent_token
-      !self.token #== "X" ? "O" : "X"
+      self.token == "X" ? "O" : "X"
     end
 
     def combo?(board, token)
